@@ -7,6 +7,7 @@ $alex-project-color: #3c2267;
 // add your project main color here:
 // $MYNAME-project-color: HEXVALUE;
 
+$tony-project-color: #7FDCB5;
 
 $daniel-project-color: #1EE8D4;
 
@@ -28,4 +29,7 @@ $daniel-project-color: #1EE8D4;
 }
 #daniel {
 	@include readable($daniel-project-color);
+}
+#tony {
+	@include readable($tony-project-color);
 }
