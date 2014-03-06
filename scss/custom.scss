@@ -5,6 +5,7 @@ $elyse-project-color: #651B63;
 // add your project main color here:
 // $MYNAME-project-color: HEXVALUE;
 
+$tony-project-color: #7FDCB5;
 
 
 
@@ -18,3 +19,6 @@ $elyse-project-color: #651B63;
 
 #sartaj {}
 
+#tony {
+	@include readable($tony-project-color);
+}
